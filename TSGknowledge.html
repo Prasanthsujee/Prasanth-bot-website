@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PISA ISSUE</title>
+    <link rel="icon" href="channels4_profile.jpg">
+    <style>
+        body {
+            overflow-x: hidden;
+            margin: 0; /* Added to remove default margin */
+        }
+
+        .paralax {
+            position: absolute;
+            width: 100%;
+            height: 100vh; /* Changed to vh for full viewport height */
+        }
+
+        .paralax-item {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-size: cover;
+            background-position: center;
+            z-index: 2;
+        }
+
+        .p-item1 {
+            background: url("m_1.png");
+        }
+
+        .p-item2 {
+            background: url("m_2.png");
+        }
+
+        .p-item3 {
+            background: url("m_3.png");
+        }
+
+        .p-item4 {
+            background: url("m_4.png");
+        }
+
+        .container {
+            position: relative; /* Added to position the container relative to the body */
+        }
+
+        .content-header {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .content img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="paralax">
+        <div class="paralax-item p-item1"></div>
+        <div class="paralax-item p-item2"></div>
+        <div class="paralax-item p-item3"></div>
+        <div class="paralax-item p-item4"></div>
+    </div>
+
+    <div class="container">
+        <div class="content-header">
+            <h1>Parallax Design</h1>
+            <h2>The Next Level Parallax Scrolling Web Design</h2>
+        </div>
+        <div class="content">
+            <img src="astro.png" alt="">
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        // Your script remains unchanged
+    </script>
+</body>
+</html>
